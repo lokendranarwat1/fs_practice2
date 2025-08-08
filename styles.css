@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.container {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.amount {
+  color: green;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons button {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+
+.deposit {
+  background-color: green;
+  color: white;
+}
+
+.withdraw {
+  background-color: red;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.7;
+}
